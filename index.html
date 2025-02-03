@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Centered Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 220px; /* Adjust to avoid overlap with sidebar */
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px;
+            gap: 10px;
+        }
+        .grid-item{
+            background-color: darkslategray;
+            border: #333 1px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#" style="color: white; text-decoration: none;">Home</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">About</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">Services</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Heading</h1>
+        <p>Paragraph</p>
+        <br>
+        <p>sdvsdvs</p>
+        <img src="WhatsApp Image 2024-08-23 at 22.27.07_27eddf59.jpg" alt="none" width="200" height="200">
+        <br>
+        <input type="text" name="username">
+        <br>
+        <!--trtrtryr-->
+        <img src="output.png" alt="rger" width="25%">
+        <br>
+        <a href="https://www.amazon.in/ref=nav_logo">search</a>
+        <br>
+        <h1>list</h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Grapes</li>
+            <li>Mango</li>
+        </ul>
+        <br>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Grapes</li>
+            <li>Mango</li>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>grtgr</td>
+                    <td>trbg</td>
+                    <td>gtrvt</td>
+                </tr>
+                <tr>
+                    <td>Rhrtghbe</td>
+                    <td>trhet</td>
+                    <td>hetrb</td>
+                </tr>
+                <tr>
+                    <td>etrbge</td>
+                    <td>Retbrgf</td>
+                    <td>Rebtrgf</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="grid-container">
+            <div class="grid-item">11111111</div>
+            <div class="grid-item">222222</div>
+            <div class="grid-item">333333</div>
+            <div class="grid-item">444444</div>
+            <div class="grid-item">555555</div>
+        </div>
+    </div>
+</body>
+</html>
